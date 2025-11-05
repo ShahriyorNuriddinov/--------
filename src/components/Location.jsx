@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/img/location.png";
+import img from "../assets/img/locat.png";
 import img2 from "../assets/img/home.png";
 
 const Location = () => {
