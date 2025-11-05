@@ -1,10 +1,9 @@
 import React from "react";
 
-export const Footer = () => {
+export const footer = () => {
   return (
     <div className="bg-[#1a3e3e]">
       <div className="container1 flex flex-col lg:flex-row items-start justify-between py-6 sm:py-8 lg:py-12 gap-6 sm:gap-8 lg:gap-12">
-        {/* Company Info */}
         <div className="w-full lg:w-1/3">
           <p className="font-bold text-lg sm:text-xl text-[#f3f5f4] mb-3 sm:mb-4">
             Компания «РумТибет»
@@ -76,7 +75,6 @@ export const Footer = () => {
           </div>
         </div>
 
-        {/* Services */}
         <div className="w-full lg:w-1/3">
           <p className="font-bold text-base sm:text-lg text-white mb-3 sm:mb-4">
             Наши услуги
@@ -102,8 +100,6 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-
-        {/* Important Info */}
         <div className="w-full lg:w-1/3">
           <p className="font-bold text-base sm:text-lg text-white mb-3 sm:mb-4">
             Важно для путешествий
