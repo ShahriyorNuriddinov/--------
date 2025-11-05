@@ -2,7 +2,7 @@ import React from "react";
 import img from "../assets/img/locat.png";
 import img2 from "../assets/img/home.png";
 
-const Location = () => {
+const Service = () => {
   return (
     <div className="container1 py-8 sm:py-10 lg:py-12">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-6 sm:gap-8">
@@ -38,4 +38,4 @@ const Location = () => {
   );
 };
 
-export default Location;
+export default Service;

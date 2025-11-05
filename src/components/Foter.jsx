@@ -1,6 +1,6 @@
 import React from "react";
 
-export const footer = () => {
+export const Foter = () => {
   return (
     <div className="bg-[#1a3e3e]">
       <div className="container1 flex flex-col lg:flex-row items-start justify-between py-6 sm:py-8 lg:py-12 gap-6 sm:gap-8 lg:gap-12">
@@ -18,7 +18,6 @@ export const footer = () => {
             <span className="pl-2 sm:pl-4">+7 (123) 456-78-90</span>
           </p>
 
-          {/* Social Icons */}
           <div className="flex gap-3 sm:gap-4">
             <svg
               width="24"
@@ -121,3 +120,4 @@ export const footer = () => {
     </div>
   );
 };
+export default Foter;

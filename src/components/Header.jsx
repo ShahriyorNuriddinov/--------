@@ -4,7 +4,7 @@ import logo from "../assets/img/logo.svg";
 export const Header = () => {
   return (
     <header className="fixed top-0 w-full z-10">
-      <div className="container1 bg-[#7A969A] flex items-center justify-between">
+      <div className="container1 bg-[#7A969A] flex items-center justify-between px-4">
         <img src={logo} alt="Logo" className="w-32 sm:w-auto" />
         <div className="flex items-center gap-4 sm:gap-6">
           <ul className="hidden lg:flex items-center gap-4 xl:gap-5 text-white font-semibold text-base xl:text-lg">
@@ -35,3 +35,4 @@ export const Header = () => {
     </header>
   );
 };
+export default Header;

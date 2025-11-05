@@ -1,24 +1,25 @@
 import React from "react";
-import { Header } from "./components/Header";
+import Header  from "./components/Header";
 import Showcase from "./components/Showcase";
+import Content from "./components/Content";
+import Service from "./components/Service";
+import Adventure from "./components/Adventure";
 import Offer from "./components/Offer";
-import Popular from "./components/popular";
-import blog from "./components/blog";
 import Images from "./components/Images";
-import footer from "./components/footer";
-import Location from "./components/location";
+import Foter from "./components/Foter";
+
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Showcase />
-      <Location />
-      <Offer />
-      <Popular />
-      <blog />
-      <Images />
-      <footer />
+       <Showcase />  
+       <Service />
+       <Offer />
+       <Adventure/>
+        <Content />
+        <Images />
+        <Foter/>
     </div>
   );
 };

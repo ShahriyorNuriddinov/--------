@@ -3,7 +3,7 @@ import img from "../assets/img/popular_tour.png";
 import img2 from "../assets/img/popular_tour2.png";
 import img3 from "../assets/img/popular_tour3.png";
 
-export const Popular = () => {
+export const Adventure = () => {
   return (
     <div className="container1 py-8 sm:py-10 lg:py-12">
       <div className="flex flex-col items-center justify-between gap-2 sm:gap-4">
@@ -28,4 +28,4 @@ export const Popular = () => {
   );
 };
 
-export default Popular;
+export default Adventure ;

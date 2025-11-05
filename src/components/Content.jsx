@@ -4,7 +4,7 @@ import blog2 from "../assets/img/blog2.png";
 import blog3 from "../assets/img/blog3.png";
 import blog4 from "../assets/img/blog4.png";
 
-const blog = () => {
+const Content = () => {
   return (
     <div className="bg-[#f3f5f4]">
       <div className="container1 py-6 sm:py-8 lg:py-12">
@@ -116,4 +116,4 @@ const blog = () => {
   );
 };
 
-export default blog;
+export default Content ;
